@@ -11,6 +11,9 @@ env:
   AZURE_LOCATION: '"West Europe"'
   AZURE_WEBAPP_NAME: musashibg-ttt-app
 
+permissions:
+  id-token: write
+
 jobs:
   setup-azure-resources:
     runs-on: ubuntu-latest
